@@ -65,8 +65,8 @@ Here are a list of coordinates where you can find more content by CoderApex:
 [Facebook Page - CoderApex](https://www.facebook.com/coderapex/)  
 
 ## #fCC1000 Challenge - freeCodeCamp Solutions
-Responsive Web Design Certification 
-- Basic HTML and HTML5 \(Not Started\)
+[Responsive Web Design Certification](1-ResponsiveWebDesignCertification/) 
+- [Basic HTML and HTML5](1-ResponsiveWebDesignCertification/1-Basic-HTML-and-HTML5.md) \(Not Started\)
 - Basic CSS \(Not Started\)
 - Applied Visual Design \(Not Started\)
 - Applied Accessibility \(Not Started\)

@@ -343,3 +343,332 @@ For example: href="#"
   </p>
 </main>
 ```
+
+#### Turn an Image into a Link
+
+##### Challenge:
+
+Place the existing image element within an anchor element.
+
+Once you've done this, hover over your image with your cursor. Your cursor's normal pointer should become the link clicking pointer. The photo is now a link.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>
+    Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
+    attack your ankles chase the red dot, hairball run catnip eat the grass
+    sniff.
+  </p>
+  <p>
+    Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere
+    rip the couch sleep in the sink fluffy fur catnip scratched.
+  </p>
+</main>
+```
+
+#### Create a Bulleted Unordered List
+
+##### Challenge:
+
+Remove the last two p elements and create an unordered list of three things that cats love at the bottom of the page.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <ul>
+    <li>Wool</li>
+    <li>Lasers</li>
+    <li>Milk</li>
+  </ul>
+</main>
+```
+
+#### Create an Ordered List
+
+##### Challenge:
+
+Create an ordered list of the top 3 things cats hate the most.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>Water</li>
+    <li>Dogs</li>
+    <li>Cold Milk</li>
+  </ol>
+</main>
+```
+
+#### Create a Text Field
+
+##### Challenge:
+
+Create an input element of type text below your lists.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+
+  <input type="text" />
+</main>
+```
+
+#### Add Placeholder Text to a Text Field
+
+##### Challenge:
+
+Set the placeholder value of your text input to "cat photo URL".
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<li>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <input type="text" placeholder="cat photo URL" />
+</li>
+```
+
+#### Create a Form Element
+
+##### Challenge:
+
+Nest your text field inside a form element, and add the action="/submit-cat-photo" attribute to the form element.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" />
+  </form>
+</main>
+```
+
+#### Add a Submit Button to a Form
+
+##### Challenge:
+
+Add a button as the last element of your form element with a type of submit, and "Submit" as its text.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" />
+    <button type="submit">Submit</button>
+  </form>
+</main>
+```
+
+#### Use HTML5 to Require a Field
+
+##### Challenge:
+
+Make your text input a required field, so that your user can't submit the form without completing this field.
+
+Then try to submit the form without inputting any text. See how your HTML5 form notifies you that the field is required?
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required />
+    <button type="submit">Submit</button>
+  </form>
+</main>
+```
+
+#### Create a Set of Radio Buttons
+
+##### Challenge:
+
+Add a pair of radio buttons to your form, each nested in its own label element. One should have the option of indoor and the other should have the option of outdoor. Both should share the name attribute of indoor-outdoor to create a radio group.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<label>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required />
+
+    <label for="indoor">
+      <input id="indoor" type="radio" name="indoor-outdoor" />Indoor
+    </label>
+
+    <label for="outdoor">
+      <input id="outdoor" type="radio" name="indoor-outdoor" />Outdoor
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
+</label>
+```

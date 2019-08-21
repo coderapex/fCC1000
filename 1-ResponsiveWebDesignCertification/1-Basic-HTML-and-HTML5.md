@@ -672,3 +672,197 @@ Add a pair of radio buttons to your form, each nested in its own label element. 
   </form>
 </label>
 ```
+
+#### Create a Set of Checkboxes
+
+##### Challenge:
+
+Add to your form a set of three checkboxes. Each checkbox should be nested within its own label element. All three should share the name attribute of personality.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <label for="indoor"
+      ><input id="indoor" type="radio" name="indoor-outdoor" /> Indoor</label
+    >
+    <label for="outdoor"
+      ><input id="outdoor" type="radio" name="indoor-outdoor" /> Outdoor</label
+    ><br />
+    <input type="text" placeholder="cat photo URL" required />
+    <button type="submit">Submit</button>
+
+    <label for="happy">
+      <input type="checkbox" id="happy" name="personality" />Happy
+    </label>
+    <label for="fussy">
+      <input type="checkbox" id="fussy" name="personality" />Fussy
+    </label>
+    <label for="cranky">
+      <input type="checkbox" id="cranky" name="personality" />Cranky
+    </label>
+  </form>
+</main>
+```
+
+#### Check Radio Buttons and Checkboxes by Default
+
+##### Challenge:
+
+Set the first of your radio buttons and the first of your checkboxes to both be checked by default.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<label>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked /> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor" /> Outdoor</label><br />
+    <label><input type="checkbox" name="personality" checked /> Loving</label>
+    <label><input type="checkbox" name="personality" /> Lazy</label>
+    <label><input type="checkbox" name="personality" /> Energetic</label><br />
+    <input type="text" placeholder="cat photo URL" required />
+    <button type="submit">Submit</button>
+  </form>
+</label>
+```
+
+#### Nest Many Elements within a Single div Element
+
+##### Challenge:
+
+Nest your "Things cats love" and "Things cats hate" lists all within a single div element.
+
+Hint: Try putting your opening div tag above your "Things cats love" p element and your closing div tag after your closing ol tag so that both of your lists are within one div.
+
+##### Solution:
+
+```html
+<h2>CatPhotoApp</h2>
+<label>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"
+    ><img
+      src="https://bit.ly/fcc-relaxing-cat"
+      alt="A cute orange cat lying on its back."
+  /></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked /> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor" /> Outdoor</label><br />
+    <label><input type="checkbox" name="personality" checked /> Loving</label>
+    <label><input type="checkbox" name="personality" /> Lazy</label>
+    <label><input type="checkbox" name="personality" /> Energetic</label><br />
+    <input type="text" placeholder="cat photo URL" required />
+    <button type="submit">Submit</button>
+  </form>
+</label>
+```
+
+#### Declare the Doctype of an HTML Document
+
+##### Challenge:
+
+Add a DOCTYPE tag for HTML5 to the top of the blank HTML document in the code editor. Under it, add opening and closing html tags, which wrap around an h1 element. The heading can include any text.
+
+##### Solution:
+
+```html
+<!DOCTYPE html>
+<html>
+  <h1>H1 Element</h1>
+</html>
+```
+
+#### Define the Head and Body of an HTML Document
+
+##### Challenge:
+
+Edit the markup so there's a head and a body. The head element should only include the title, and the body element should only include the h1 and p.
+
+##### Solution:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The best page ever</title>
+  </head>
+  <body>
+    <h1>The best page ever</h1>
+    <p>
+      Cat ipsum dolor sit amet, jump launch to pounce upon little yarn mouse,
+      bare fangs at toy run hide in litter box until treats are fed. Go into a
+      room to decide you didn't want to be in there anyway. I like big cats and
+      i can not lie kitty ipsum dolor sit amet, shed everywhere shed everywhere
+      stretching attack your ankles chase the red dot, hairball run catnip eat
+      the grass sniff. Meow i could pee on this if i had the energy for slap
+      owner's face at 5am until human fills food dish yet scamper. Knock dish
+      off table head butt cant eat out of my own dish scratch the furniture.
+      Make meme, make cute face. Sleep in the bathroom sink chase laser but pee
+      in the shoe. Paw at your fat belly licks your face and eat grass, throw it
+      back up kitty ipsum dolor sit amet, shed everywhere shed everywhere
+      stretching attack your ankles chase the red dot, hairball run catnip eat
+      the grass sniff.
+    </p>
+  </body>
+</html>
+```
